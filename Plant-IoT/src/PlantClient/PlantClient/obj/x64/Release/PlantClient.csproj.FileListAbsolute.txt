@@ -1,0 +1,10 @@
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\bin\x64\Release\PlantClient.exe.config
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\bin\x64\Release\PlantClient.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\bin\x64\Release\PlantClient.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Release\PlantClient.MainWind.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Release\PlantClient.PlantInformationRecordForm.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Release\PlantClient.PreviewForm.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Release\PlantClient.Properties.Resources.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Release\PlantClient.csproj.GenerateResource.Cache
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Release\PlantClient.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Release\PlantClient.pdb

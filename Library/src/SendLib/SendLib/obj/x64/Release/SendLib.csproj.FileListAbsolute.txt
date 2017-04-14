@@ -1,0 +1,10 @@
+c:\users\丈晃\documents\visual studio 2015\Projects\SendLib\SendLib\bin\x64\Release\SendLib.dll
+c:\users\丈晃\documents\visual studio 2015\Projects\SendLib\SendLib\bin\x64\Release\SendLib.pdb
+c:\users\丈晃\documents\visual studio 2015\Projects\SendLib\SendLib\obj\x64\Release\SendLib.csprojResolveAssemblyReference.cache
+c:\users\丈晃\documents\visual studio 2015\Projects\SendLib\SendLib\obj\x64\Release\SendLib.dll
+c:\users\丈晃\documents\visual studio 2015\Projects\SendLib\SendLib\obj\x64\Release\SendLib.pdb
+B:\Library\src\SendLib\SendLib\bin\x64\Release\SendLib.dll
+B:\Library\src\SendLib\SendLib\bin\x64\Release\SendLib.pdb
+B:\Library\src\SendLib\SendLib\obj\x64\Release\SendLib.csprojResolveAssemblyReference.cache
+B:\Library\src\SendLib\SendLib\obj\x64\Release\SendLib.dll
+B:\Library\src\SendLib\SendLib\obj\x64\Release\SendLib.pdb

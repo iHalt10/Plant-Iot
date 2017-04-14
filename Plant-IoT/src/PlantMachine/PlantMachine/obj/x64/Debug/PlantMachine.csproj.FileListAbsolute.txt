@@ -1,0 +1,16 @@
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Debug\PlantMachine.exe.config
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Debug\PlantMachine.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Debug\PlantMachine.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Debug\PlantMachine.MainWind.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Debug\PlantMachine.Properties.Resources.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Debug\PlantMachine.csproj.GenerateResource.Cache
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Debug\PlantMachine.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Debug\PlantMachine.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Debug\ReceiveLib.dll
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Debug\SendLib.dll
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Debug\ReceiveLib.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Debug\SendLib.pdb
+B:\Plant-IoT\Plant-Machine\machine\PlantMachine.exe.config
+B:\Plant-IoT\Plant-Machine\machine\PlantMachine.exe
+B:\Plant-IoT\Plant-Machine\machine\PlantMachine.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Debug\PlantMachine.csprojResolveAssemblyReference.cache

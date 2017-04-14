@@ -1,0 +1,10 @@
+C:\Users\丈晃\Documents\ネットワーク\ReceiveLib\ReceiveLib\bin\x64\Release\ReceiveLib.dll
+C:\Users\丈晃\Documents\ネットワーク\ReceiveLib\ReceiveLib\bin\x64\Release\ReceiveLib.pdb
+C:\Users\丈晃\Documents\ネットワーク\ReceiveLib\ReceiveLib\obj\x64\Release\ReceiveLib.csprojResolveAssemblyReference.cache
+C:\Users\丈晃\Documents\ネットワーク\ReceiveLib\ReceiveLib\obj\x64\Release\ReceiveLib.dll
+C:\Users\丈晃\Documents\ネットワーク\ReceiveLib\ReceiveLib\obj\x64\Release\ReceiveLib.pdb
+B:\Library\src\ReceiveLib\ReceiveLib\bin\x64\Release\ReceiveLib.dll
+B:\Library\src\ReceiveLib\ReceiveLib\bin\x64\Release\ReceiveLib.pdb
+B:\Library\src\ReceiveLib\ReceiveLib\obj\x64\Release\ReceiveLib.csprojResolveAssemblyReference.cache
+B:\Library\src\ReceiveLib\ReceiveLib\obj\x64\Release\ReceiveLib.dll
+B:\Library\src\ReceiveLib\ReceiveLib\obj\x64\Release\ReceiveLib.pdb

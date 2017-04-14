@@ -1,0 +1,14 @@
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\bin\x64\Debug\PlantClient.exe.config
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\bin\x64\Debug\PlantClient.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\bin\x64\Debug\PlantClient.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Debug\PlantClient.Properties.Resources.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Debug\PlantClient.csproj.GenerateResource.Cache
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Debug\PlantClient.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Debug\PlantClient.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Debug\PlantClient.MainWind.resources
+B:\Plant-IoT\Plant-System\client\PlantClient.exe.config
+B:\Plant-IoT\Plant-System\client\PlantClient.exe
+B:\Plant-IoT\Plant-System\client\PlantClient.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Debug\PlantClient.PlantInformationRecordForm.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Debug\PlantClient.PreviewForm.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantClient\PlantClient\obj\x64\Debug\PlantClient.csprojResolveAssemblyReference.cache

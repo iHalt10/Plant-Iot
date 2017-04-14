@@ -1,0 +1,16 @@
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\PlantMachine.exe.config
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\PlantMachine.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\PlantMachine.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\plant_pixel.dll
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\plant_resizepicture.dll
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\ReceiveLib.dll
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\SendLib.dll
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\plant_pixel.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\plant_resizepicture.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\ReceiveLib.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\x64\Release\SendLib.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Release\PlantMachine.MainWind.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Release\PlantMachine.Properties.Resources.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Release\PlantMachine.csproj.GenerateResource.Cache
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Release\PlantMachine.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\x64\Release\PlantMachine.pdb

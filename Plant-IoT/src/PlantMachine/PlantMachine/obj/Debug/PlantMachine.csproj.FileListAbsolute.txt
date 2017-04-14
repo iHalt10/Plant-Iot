@@ -1,0 +1,9 @@
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\Debug\PlantMachine.exe.config
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\Debug\PlantMachine.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\bin\Debug\PlantMachine.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\Debug\PlantMachine.Properties.Resources.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\Debug\PlantMachine.csproj.GenerateResource.Cache
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\Debug\PlantMachine.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\Debug\PlantMachine.pdb
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\Debug\PlantMachine.MainWind.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantMachine\PlantMachine\obj\Debug\PlantMachine.csprojResolveAssemblyReference.cache

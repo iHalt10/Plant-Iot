@@ -1,0 +1,5 @@
+c:\users\丈晃\documents\visual studio 2015\Projects\plant_lenght\plant_lenght\bin\Debug\plant_lenght.dll
+c:\users\丈晃\documents\visual studio 2015\Projects\plant_lenght\plant_lenght\bin\Debug\plant_lenght.pdb
+c:\users\丈晃\documents\visual studio 2015\Projects\plant_lenght\plant_lenght\obj\Debug\plant_lenght.csprojResolveAssemblyReference.cache
+c:\users\丈晃\documents\visual studio 2015\Projects\plant_lenght\plant_lenght\obj\Debug\plant_lenght.dll
+c:\users\丈晃\documents\visual studio 2015\Projects\plant_lenght\plant_lenght\obj\Debug\plant_lenght.pdb

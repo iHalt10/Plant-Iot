@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plant_Client_Information xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <startup>-2</startup>
+  <growcnt>-1</growcnt>
+  <dayscnt>-1</dayscnt>
+  <startday />
+  <today />
+  <lenght>-1</lenght>
+  <period />
+  <light />
+  <watercheck />
+  <stPictureDir />
+  <stPictureGridDir />
+</Plant_Client_Information>

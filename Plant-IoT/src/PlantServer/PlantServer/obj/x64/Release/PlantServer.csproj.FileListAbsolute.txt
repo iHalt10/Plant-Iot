@@ -1,0 +1,15 @@
+C:\Users\丈晃\Documents\あいちゃれA\PlantServer\PlantServer\bin\x64\Release\PlantServer.exe.config
+B:\Plant-IoT\Plant-System\server\PlantServer.exe.config
+B:\Plant-IoT\Plant-System\server\PlantServer.exe
+B:\Plant-IoT\Plant-System\server\PlantServer.pdb
+C:\Users\丈晃\Documents\あいちゃれA\PlantServer\PlantServer\obj\x64\Release\PlantServer.Form1.resources
+C:\Users\丈晃\Documents\あいちゃれA\PlantServer\PlantServer\obj\x64\Release\PlantServer.Properties.Resources.resources
+C:\Users\丈晃\Documents\あいちゃれA\PlantServer\PlantServer\obj\x64\Release\PlantServer.csproj.GenerateResource.Cache
+C:\Users\丈晃\Documents\あいちゃれA\PlantServer\PlantServer\obj\x64\Release\PlantServer.exe
+C:\Users\丈晃\Documents\あいちゃれA\PlantServer\PlantServer\obj\x64\Release\PlantServer.pdb
+C:\Users\丈晃\Documents\あいちゃれA\PlantServer\PlantServer\obj\x64\Release\PlantServer.csprojResolveAssemblyReference.cache
+C:\Users\丈晃\Documents\あいちゃれ\PlantServer\PlantServer\obj\x64\Release\PlantServer.Form1.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantServer\PlantServer\obj\x64\Release\PlantServer.Properties.Resources.resources
+C:\Users\丈晃\Documents\あいちゃれ\PlantServer\PlantServer\obj\x64\Release\PlantServer.csproj.GenerateResource.Cache
+C:\Users\丈晃\Documents\あいちゃれ\PlantServer\PlantServer\obj\x64\Release\PlantServer.exe
+C:\Users\丈晃\Documents\あいちゃれ\PlantServer\PlantServer\obj\x64\Release\PlantServer.pdb

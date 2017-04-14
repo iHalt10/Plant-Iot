@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\OpenCV3.1\build\include\opencv2/core/mat.hpp(1965): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\OpenCV3.1\build\include\opencv2/core/persistence.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\OpenCV3.1\build\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\OpenCV3.1\build\include\opencv2/core/utility.hpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  コード生成しています。
+  45 of 47 functions (95.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  植物画像処理.vcxproj -> C:\Users\丈晃\Documents\Visual Studio 2015\Projects\植物画像処理\x64\Release\植物画像処理.exe
+  植物画像処理.vcxproj -> C:\Users\丈晃\Documents\Visual Studio 2015\Projects\植物画像処理\x64\Release\植物画像処理.pdb (Full PDB)

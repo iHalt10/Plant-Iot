@@ -1,0 +1,5 @@
+B:\plant_library\plant_lenght\plant_lenght\bin\x64\Debug\plant_lenght.dll
+B:\plant_library\plant_lenght\plant_lenght\bin\x64\Debug\plant_lenght.pdb
+B:\plant_library\plant_lenght\plant_lenght\obj\x64\Debug\plant_lenght.csprojResolveAssemblyReference.cache
+B:\plant_library\plant_lenght\plant_lenght\obj\x64\Debug\plant_lenght.dll
+B:\plant_library\plant_lenght\plant_lenght\obj\x64\Debug\plant_lenght.pdb

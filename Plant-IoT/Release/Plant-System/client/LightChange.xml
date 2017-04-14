@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plant_Information xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <stPictureDir>B:\Plant-IoT\Release\Plant-System\植物画像\植物(1)\2016-12-03.JPG</stPictureDir>
+  <stPictureGridDir>B:\Plant-IoT\Release\Plant-System\植物画像\植物(1)\2016-12-03(罫線).JPG</stPictureGridDir>
+  <day>2016/12/03</day>
+  <period>成長期</period>
+  <lenght>7.2</lenght>
+  <light>OFF</light>
+  <watercheck>あり</watercheck>
+</Plant_Information>
