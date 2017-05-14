@@ -33,8 +33,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.MyServerPortnumLb = new System.Windows.Forms.Label();
             this.MyServerIPAdressLb = new System.Windows.Forms.Label();
-            this.TwitterBt = new System.Windows.Forms.Button();
-            this.TwitterLb = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +40,7 @@
             // 
             this.ConnectLb.AutoSize = true;
             this.ConnectLb.Font = new System.Drawing.Font("Yu Gothic UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.ConnectLb.Location = new System.Drawing.Point(103, 23);
+            this.ConnectLb.Location = new System.Drawing.Point(73, 23);
             this.ConnectLb.Name = "ConnectLb";
             this.ConnectLb.Size = new System.Drawing.Size(50, 25);
             this.ConnectLb.TabIndex = 0;
@@ -78,34 +76,11 @@
             this.MyServerIPAdressLb.TabIndex = 0;
             this.MyServerIPAdressLb.Text = "IPv4：\r\n111.111.111";
             // 
-            // TwitterBt
-            // 
-            this.TwitterBt.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.TwitterBt.Location = new System.Drawing.Point(204, 100);
-            this.TwitterBt.Name = "TwitterBt";
-            this.TwitterBt.Size = new System.Drawing.Size(50, 33);
-            this.TwitterBt.TabIndex = 2;
-            this.TwitterBt.Text = "ON";
-            this.TwitterBt.UseVisualStyleBackColor = true;
-            this.TwitterBt.Click += new System.EventHandler(this.TwitterBt_Click);
-            // 
-            // TwitterLb
-            // 
-            this.TwitterLb.AutoSize = true;
-            this.TwitterLb.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.TwitterLb.Location = new System.Drawing.Point(213, 161);
-            this.TwitterLb.Name = "TwitterLb";
-            this.TwitterLb.Size = new System.Drawing.Size(33, 23);
-            this.TwitterLb.TabIndex = 3;
-            this.TwitterLb.Text = "OK";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(266, 233);
-            this.Controls.Add(this.TwitterLb);
-            this.Controls.Add(this.TwitterBt);
+            this.ClientSize = new System.Drawing.Size(202, 233);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ConnectLb);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -126,8 +101,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label MyServerPortnumLb;
         private System.Windows.Forms.Label MyServerIPAdressLb;
-        private System.Windows.Forms.Button TwitterBt;
-        private System.Windows.Forms.Label TwitterLb;
     }
 }
 

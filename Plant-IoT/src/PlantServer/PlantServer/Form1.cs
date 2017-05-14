@@ -1,21 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.Xml.Serialization;
 using System.Diagnostics;
 using System.IO;
+//Mylibrary
 using ReceiveLib;
 using SendLib;
 using plant_lenght;
 using plant_gridpicture;
-using CoreTweet.Core;
 
 namespace PlantServer
 {
@@ -64,7 +59,6 @@ namespace PlantServer
             Myreceive.Start(Net_info.MyServerReceivePort);
             MyServerIPAdressLb.Text = "IPv4：\n" + Net_info.MyServerIPAdress;
             MyServerPortnumLb.Text = "ポート番号：\n" + Net_info.MyServerReceivePort.ToString();
-            TwitterLb.Text = "";
 
             //PlantClientInformation.xmlファイル初期設定
             StartupPlantClientInformationXmlWrite();
@@ -138,12 +132,10 @@ namespace PlantServer
                             if (message_info[2] == "0")
                             {
                                 HarvestPlantClientInformationXmlWrite(0);
-                                if (TwitterBt.Text == "ON") TwetterTweetInterval(2);
                             }
                             else if (message_info[2] == "1")
                             {
                                 HarvestPlantClientInformationXmlWrite(1);
-                                if (TwitterBt.Text == "ON") TwetterTweetInterval(3);
                             }
                             string message = "S" + "," + "0";
                             MessageSend(message);
@@ -169,7 +161,6 @@ namespace PlantServer
                         }
                         Array.Resize<Plant_Information>(ref plant_info, 1);
                         plant_c_info.startup = 3;//育成開始番号:3
-                        if (TwitterBt.Text == "ON") TwetterTweetInterval(1);
                     }
                     Bitmap bmp = new Bitmap(e.Image);
                     bmp.Save(s_info.filename, System.Drawing.Imaging.ImageFormat.Jpeg);
@@ -178,7 +169,6 @@ namespace PlantServer
                     //クライアントのアプリケーションに必要な情報をxml ファイルに書き込む
                     PlantClientInformationXmlWrite();
                     PlantInformationXmlWrite();
-                    if (TwitterBt.Text == "ON") TwetterTweetPlant();
                     string message = "S" + "," + "0";
                     MessageSend(message);
                 }
@@ -216,62 +206,6 @@ namespace PlantServer
                 flg = false;
             }
             return flg;
-        }
-
-        /// <summary>
-        ///TwetterTweet
-        /// </summary>
-        private void TwetterTweetPlant()
-        {
-            Tweet_Information twe = new Tweet_Information();
-            twe.tweetcmp01 = "カイワレダイコン\n<<育成" + plant_c_info.growcnt.ToString() + ">>\n開始日付(仮)：\n" + plant_c_info.startday + "から" + (plant_c_info.dayscnt - 1).ToString() + "日目\n**" + plant_c_info.period + "**\n";
-            if (plant_c_info.lenght < 0) twe.tweetcmp02 = "伸長：---\n";
-            else twe.tweetcmp02 = "伸長：" + plant_c_info.lenght.ToString() + "\n";
-            twe.tweetcmp03 = "育成LED：" + plant_c_info.light + "\n水(有無)：" + plant_c_info.watercheck;
-            if (plant_c_info.watercheck == "なし")
-            {
-                if (plant_c_info.period == "過剰成長期" || plant_c_info.period == "測定不可") twe.tweetcmp04 = "\n警告：水がありません。\n成長しすぎですので、\n収穫してください。";
-                else twe.tweetcmp04 = "\n警告：水がありません。";
-            }
-            else if (plant_c_info.period == "過剰成長期" || plant_c_info.period == "測定不可") twe.tweetcmp04 = "\n警告：\n成長しすぎですので、\n収穫してください。";
-            twe.tweetstr = twe.tweetcmp01 + twe.tweetcmp02 + twe.tweetcmp03 + twe.tweetcmp04;
-            var tokens = CoreTweet.Tokens.Create("L4CTQYTkUxuC1sJp1to10Idgy"
-                , "uzCwiV3xpcdgxupVSGS5b6jKfRVXEMu6xTTU6B5KtjSSlccKZc"
-                , "795954379438206976-m27OuUHKg4Ot5hxGYtft8x3gsW0hZrR"
-                , "kIK99Dd7kzISAlXta8kWUwAFEeX8CS9N5qX7XCGSOvkkH");
-
-            try
-            {
-                tokens.Statuses.UpdateWithMedia(status => twe.tweetstr, media => new FileInfo(plant_c_info.stPictureDir));
-                TwitterLb.Text = "OK";
-            }
-            catch
-            {
-                TwitterLb.Text = "NO";
-                goto E01;
-            }
-            E01:;
-        }
-        private void TwetterTweetInterval(int point)
-        {
-            var tokens = CoreTweet.Tokens.Create("L4CTQYTkUxuC1sJp1to10Idgy"
-                , "uzCwiV3xpcdgxupVSGS5b6jKfRVXEMu6xTTU6B5KtjSSlccKZc"
-                , "795954379438206976-m27OuUHKg4Ot5hxGYtft8x3gsW0hZrR"
-                , "kIK99Dd7kzISAlXta8kWUwAFEeX8CS9N5qX7XCGSOvkkH");
-            try
-            {
-                if (point == 1) tokens.Statuses.Update(new { status = "第" + s_info.grocwcnt.ToString() + "回目の育成が開始されました。" });
-                if (point == 2) tokens.Statuses.Update(new { status = "第" + s_info.grocwcnt.ToString() + "回目のカイワレダイコンが収穫されました。" });
-                if (point == 3) tokens.Statuses.Update(new { status = "第" + s_info.grocwcnt.ToString() + "回目の育成が強制終了されました。" });
-                if (point == 4) tokens.Statuses.Update(new { status = "第" + s_info.grocwcnt.ToString() + "回目のライトが変更されました。" });
-                TwitterLb.Text = "OK";
-            }
-            catch
-            {
-                TwitterLb.Text = "NO";
-                goto Ei;
-            }
-            Ei:;
         }
         /// <summary>
         /// PlantClientInformation.xml初期化
@@ -401,17 +335,9 @@ namespace PlantServer
                 serializer1.Serialize(sw, plant_c_info);
                 sw.Close();
                 PlantInformationXmlWrite();
-                if (TwitterBt.Text == "ON") TwetterTweetInterval(4);
                 FileWatcherCnt = 0;
             }
         }
-
-        private void TwitterBt_Click(object sender, EventArgs e)
-        {
-            if (TwitterBt.Text == "ON") TwitterBt.Text = "OFF";
-            else TwitterBt.Text = "ON";
-        }
-
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
 

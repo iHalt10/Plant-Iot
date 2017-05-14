@@ -61,11 +61,3 @@ public class Network_Information
     public int MachineReceivePort;
     public int MachineSendPort;
 }
-public class Tweet_Information
-{
-    public string tweetstr;
-    public string tweetcmp01;
-    public string tweetcmp02;
-    public string tweetcmp03;
-    public string tweetcmp04;
-}
